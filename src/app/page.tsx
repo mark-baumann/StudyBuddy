@@ -58,7 +58,6 @@ const Home = () => {
 
         {/* Bereich für den API-Schlüssel */}
         <div style={{ marginBottom: '30px', padding: '20px', backgroundColor: '#444', borderRadius: '16px', color: 'white', boxShadow: '0 8px 16px rgba(255, 255, 255, 0.2)' }}>
-          <h3 style={{ textAlign: 'center', marginBottom: '20px', color: '#00684A' }}>API-Schlüssel konfigurieren</h3>
           <p style={{ textAlign: 'center' }}>Füge deinen OpenAI API-Schlüssel hinzu, um den vollen Funktionsumfang von StudyBuddy zu nutzen:</p>
           <label htmlFor="api-key-input" style={{ display: 'block', margin: '20px 0 10px', fontWeight: 'bold' }}>OpenAI API Key:</label>
           <input
