@@ -9,7 +9,7 @@ const Home = () => {
     const storedApiKey = localStorage.getItem('OPENAI_API_KEY');
     if (storedApiKey) {
       setApiKey(storedApiKey);
-      process.env.REACT_APP_OPENAI_API_KEY = storedApiKey;
+      process.env.OPENAI_API_KEY = storedApiKey;
     }
   }, []);
 
