@@ -38,7 +38,7 @@ const Home = () => {
             </p>
             <br />
 
-            <h2 style={{ fontStyle: 'italic', color: '#007BFF' }}>So funktioniert's:</h2>
+            <h2 style={{ fontStyle: 'italic', color: '#007BFF' }}>So funktioniert&apos;s:</h2>
             <ul style={{ paddingLeft: '20px' }}>
               <li style={{ marginBottom: '10px' }}>
                 <strong>PDF-Dateien hochladen</strong>  
